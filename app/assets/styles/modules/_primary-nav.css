@@ -1,30 +1,4 @@
 .primary-nav {
-<<<<<<< HEAD
-
-  &--pull-right {
-    float: right;
-  }
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  @mixin clearfix;
-}
-
-li {
-  list-style: none;
-  float: left;
-  padding-right: 20px;
-}
-
-a {
-  color: #FFF;
-  font-weight: 300;
-  text-decoration: none;
-  display: block;
-  padding: 12px 0;
-=======
   padding-top: 10px;
 
   @mixin atMedium {
@@ -78,5 +52,4 @@ a {
       background-color: transparent;
     }
   }
->>>>>>> header
 }

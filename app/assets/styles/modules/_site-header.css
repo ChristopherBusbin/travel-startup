@@ -1,10 +1,4 @@
 .site-header {
-<<<<<<< HEAD
-  padding: 10px;
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-=======
   padding: 10px 0;
   position: absolute;
   width: 100%;
@@ -14,20 +8,15 @@
   &--is-expanded {
     background-color: rgba($mainBlue, .55);
   }
->>>>>>> header
 
   @mixin atMedium {
     background-color: rgba($mainBlue, .3);
   }
 
   &__btn-container {
-<<<<<<< HEAD
-    float: right;
-=======
     @mixin atMedium {
       float: right;
     }
->>>>>>> header
   }
 
   &__logo {

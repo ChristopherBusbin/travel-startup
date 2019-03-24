@@ -553,12 +553,24 @@ a {
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
+  -webkit-transition: all .4s;
+  transition: all .4s;
 
 }
+
+.btn:hover {
+    background-color: #5091c4;
+    cursor: pointer;
+  }
 
 .btn--orange {
     background-color: #d59541;
   }
+
+.btn--orange:hover {
+      background-color: #d47f42;
+      cursor: pointer;
+    }
 
 .btn--large {
     padding: 1.1rem 1.9rem;
@@ -675,11 +687,10 @@ a {
   }
 
 @media (min-width: 1010px) {
-
-.page-section--testimonials {
-      background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
-      background-size: cover
-  }
+      .page-section--testimonials.lazyloaded {
+        background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+        background-size: cover;
+      }
   }
 
 .headline {
@@ -1456,6 +1467,10 @@ a {
     height: 72px;
     position: relative;
   }
+
+.social-icons__icon:hover {
+      background-color: #d47f42;
+    }
 
 @media (min-width: 530px) {
 

@@ -4,9 +4,20 @@
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
+  transition: all .4s;
+
+  &:hover {
+    background-color: $mainBlueButLighter;
+    cursor: pointer;
+  }
 
   &--orange {
     background-color: $mainOrange;
+
+    &:hover {
+      background-color: $mainOrangeButDarker;
+      cursor: pointer;
+    }
   }
 
   &--large {
